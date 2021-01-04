@@ -27,6 +27,7 @@ p{
 
 .half-width img{
     width: 100%;
+    animation: 3s ease-in-out 1s 1 slideInFromLeft;
 }
 
 .top-banner{
@@ -40,6 +41,16 @@ section{
     padding-bottom: 150px;
 }
 
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+
 .link-button{
     text-decoration: none;
     font-weight: 800;
@@ -47,7 +58,6 @@ section{
     color: white;
     border-radius: 8px;
     padding: 10px 20px;
-    
 }
 
 .dream-area{
