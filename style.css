@@ -24,6 +24,7 @@ p{
     padding-left: 2%;
     float: left;
 }
+
 .half-width img{
     width: 100%;
 }
@@ -83,6 +84,15 @@ div img:hover{
     border-radius: 10px;
 }
 
-footer p{
-    text-align: center;
+footer{
+    background-color: #263238;
+    padding: 2px;
 }
+
+footer div p{
+    text-align: center;
+    color: white;
+}
+
+ 
+
