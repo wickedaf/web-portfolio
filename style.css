@@ -27,7 +27,9 @@ p{
 
 .half-width img{
     width: 100%;
-    animation: 3s ease-in-out 1s 1 slideInFromLeft;
+    animation: 3s ease-in-out .5s 1 slideInFromLeft;
+    animation-fill-mode: both;
+    display: relative;
 }
 
 .top-banner{
@@ -48,6 +50,7 @@ section{
     100% {
       transform: translateX(0);
     }
+    
 }
 
 
